@@ -1,0 +1,11 @@
+H:\GitHub\basic-shapes\bin\Debug\netcoreapp2.1\basic-shapes.deps.json
+H:\GitHub\basic-shapes\bin\Debug\netcoreapp2.1\basic-shapes.runtimeconfig.json
+H:\GitHub\basic-shapes\bin\Debug\netcoreapp2.1\basic-shapes.runtimeconfig.dev.json
+H:\GitHub\basic-shapes\bin\Debug\netcoreapp2.1\basic-shapes.dll
+H:\GitHub\basic-shapes\bin\Debug\netcoreapp2.1\basic-shapes.pdb
+H:\GitHub\basic-shapes\obj\Debug\netcoreapp2.1\basic-shapes.csprojAssemblyReference.cache
+H:\GitHub\basic-shapes\obj\Debug\netcoreapp2.1\basic-shapes.csproj.CoreCompileInputs.cache
+H:\GitHub\basic-shapes\obj\Debug\netcoreapp2.1\basic-shapes.AssemblyInfoInputs.cache
+H:\GitHub\basic-shapes\obj\Debug\netcoreapp2.1\basic-shapes.AssemblyInfo.cs
+H:\GitHub\basic-shapes\obj\Debug\netcoreapp2.1\basic-shapes.dll
+H:\GitHub\basic-shapes\obj\Debug\netcoreapp2.1\basic-shapes.pdb
