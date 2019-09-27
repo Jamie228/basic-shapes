@@ -30,5 +30,10 @@ namespace basic_shapes
             rectangle3.height = 30;
             rectangle3.width = 15;
         }
+
+        static void getArea()
+        {
+            
+        }
     }
 }
