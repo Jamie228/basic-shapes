@@ -6,7 +6,8 @@ namespace basic_shapes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            createRectangles();
+            getArea();
         }
     }
 
@@ -14,6 +15,8 @@ namespace basic_shapes
     {
         int height;
         int width;
+
+        int area = height * width;
 
         static void createRectangles()
         {
@@ -31,9 +34,9 @@ namespace basic_shapes
             rectangle3.width = 15;
         }
 
-        static void getArea()
+        static void getArea(height, width)
         {
-            
+            int area = height * width;
         }
     }
 }
