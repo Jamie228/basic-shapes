@@ -6,37 +6,31 @@ namespace basic_shapes
     {
         static void Main(string[] args)
         {
-            createRectangles();
-            getArea();
+         Rectangle rectangle1 = new Rectangle(34, 25);
+         Rectangle rectangle2 = new Rectangle(10, 5);
+         Rectangle rectangle3 = new Rectangle(15, 30);
+
+         Console.WriteLine("RECTANGLE 1 AREA: {0}", rectangle1.GetArea());
+         Console.WriteLine("RECTANGLE 2 AREA: {0}", rectangle2.GetArea());
+         Console.WriteLine("RECTANGLE 3 AREA: {0}", rectangle3.GetArea());
+         
         }
     }
 
     class Rectangle
     {
-        int height;
-        int width;
+        private int height;
+        private int width;
 
-        int area = height * width;
-
-        static void createRectangles()
+        public Rectangle(int width, int height)
         {
-            Rectangle rectangle1 = new Rectangle();
-            Rectangle rectangle2 = new Rectangle();
-            Rectangle rectangle3 = new Rectangle();
-
-            rectangle1.height = 25;
-            rectangle1.width = 34;
-
-            rectangle2.height = 5;
-            rectangle2.width = 10;
-
-            rectangle3.height = 30;
-            rectangle3.width = 15;
+            this.width=width;
+            this.height=height;
         }
 
-        static void getArea(height, width)
+        public int GetArea()
         {
-            int area = height * width;
+            return this.width*this.height;
         }
     }
 }
